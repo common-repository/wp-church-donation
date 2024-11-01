@@ -1,0 +1,32 @@
+input{border:none; outline:none;}
+ul,li{list-style:none;}
+.wp-church-form-style ul{float:left; width:100%; padding:0; margin:15px 0; clear:both;}
+.wp-church-form-style ul li{float:left; width:45%; padding-right:5%; padding-bottom:10px; margin:0; min-height:75px;}
+.wp-church-form-style ul li:first-child{width:100%; padding:0 0 30px 0;}
+.wp-church-form-style ul li label{width:100%; float:left; margin:0; font-size:16px;}
+.wp-church-form-style ul li input{width:96%;height: 36px; border:2px solid #e2e2e2; padding:0 10px 0;}
+select#country{float:left; width:100%;height: 40px; border:2px solid #e2e2e2; padding:0 10px 0 5px;}
+.wp-church-form-style ul li.donation-parts{width:100%; padding:0; font-size:18px; min-height:auto;}
+.inputbox.exp_month { width:48%; margin:0 2% 0 0;}
+.wp-church-form-style ul li.card-type{width:20%;float:left; padding-right:4%;}
+.wp-church-form-style ul li.card-number{width:20%;float:left;  padding-right:0px;}
+.wp-church-form-style ul li.card-ex-date{width:24%;float:left;  padding-right:0;}
+.wp-church-form-style ul li.x-card-code{width:20%;float:left;  padding-right:6%;}
+li.card-type select{width:100%;height: 40px; border:2px solid #e2e2e2; padding:0 10px 0 5px;}
+li.card-ex-date select{width:40%;height: 40px; border:2px solid #e2e2e2; padding:0 10px 0 5px;}
+li.comment-box{ width:100% !important; float:left !important;  height:200px!important;}
+.wp-church-form-style ul li textarea{width:96%;height: 36px; border:2px solid #e2e2e2; padding:5px; height:150px;}
+.inputbox{width:100%;height: 36px; float:left; border:2px solid #e2e2e2; padding:0 5px;}
+label.error{color:#ff0000; font-size:12px;}
+.error{color:#ff0000; font-size:14px;}
+li.donate-button{ width:auto !important; float:left !important; min-height: auto !important; }
+li.donate-button input{font-size:16px; border:none !important; }
+.thank_you_message { margin:0 0 25px 0; width:100%; float:left;}
+@media only screen and (min-width: 0px) and (max-width:640px) {
+.container{ width:95%; margin:0 auto;}
+.wp-church-form-style ul li{width:98%; padding-right:0;}
+.wp-church-form-style ul li.card-number, .wp-church-form-style ul li.card-ex-date, .wp-church-form-style ul li.x-card-code{width:98%; padding-right:0;}
+.wp-church-form-style ul li input{ padding:0 5px; width:95%;}
+.wp-church-form-style ul li textarea{ padding:0 5px; width:95%;}
+.wp-church-form-style ul li.card-type{ width:100%;}
+}
